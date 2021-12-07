@@ -542,8 +542,8 @@ body {
   margin-top: 20px;
   -webkit-animation-name: item-animation;
           animation-name: item-animation;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
