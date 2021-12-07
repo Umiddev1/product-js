@@ -5,11 +5,86 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lesson</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/flexboxgrid.min.css">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-
+  <div class="container">
+    <div class="product__biggroup">
+      <div class="product__wrapper">
+        <div class="product__lists">
+          <h1 style="margin-left: 20px; margin-bottom: 30px;">Togo Menu</h1>
+          <ul class="product__list">
+            <li class="product__item">
+              <div class="product__wrappers">
+                <div class="product__imgs">
+                  <img class="product__img" src="img/food11-removebg-preview.png" alt="img">
+                </div>
+                <div class="product__des end-xs">
+                  <h4 class="product__title ">French fries  with Ketchup</h4>
+                  <p class="product__text">$2.23</p>
+                  <button class="product__btn">Add to Card</button>
+                  <i class='close bx bx-x'></i>
+                </div>
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__wrappers">
+                  <img class="product__img" src="img/food22-removebg-preview.png" alt="img">
+                <div class="product__des end-xs">
+                  <h4 class="product__title">Salmon and Vegetables</h4>
+                  <p class="product__text">$8.99</p>
+                  <button class="product__btn">Add to Card</button>
+                  <i class='close bx bx-x'></i>
+                </div>
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__wrappers">
+                  <img class="product__img" src="img/food332.png" alt="img">
+                <div class="product__des end-xs">
+                  <h4 class="product__title ">Spagetti with Souce</h4>
+                  <p class="product__text">$7.89</p>
+                  <button class="product__btn">Add to Card</button>
+                  <i class='close bx bx-x'></i>
+                </div>
+              </div>
+            </li>
+            <li class="product__item">
+              <div class="product__wrappers">
+                  <img class="product__img" src="img/food334-removebg-preview.png" alt="img">
+                <div class="product__des end-xs">
+                  <h4 class="product__title ">French fries  with Ketchup</h4>
+                  <p class="product__text">$2.23</p>
+                  <button class="product__btn">Add to Card</button>
+                  <i class='close bx bx-x'></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="product__result-list">
+          <h1 style="margin-left: 20px; margin-bottom: 30px;">Your Card</h1>
+          <ul>
+            <template id="tempproduct">
+              <li class="product__result-item">
+                <img class="product__result-img" src="" alt="img">
+                <div class="product__result-dess">
+                  <h5 class="product__result-title"></h5>
+                  <p class="product__result-text"></p>
+                  <i class='result__closes bx bx-x'></i>
+                </div>
+              </li>
+            </template>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="js/main.js"></script>
 </body>
 </html>
