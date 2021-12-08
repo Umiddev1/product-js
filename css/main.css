@@ -599,4 +599,29 @@ body {
   right: 0;
   top: 0;
   cursor: pointer;
+}
+
+.product__result-total {
+  width: 500px;
+  background-color: #fff;
+  margin-left: 50px;
+  height: 200px;
+  box-shadow: 4px 12px 28px 7px rgba(34, 60, 80, 0.2);
+  border-radius: 8px;
+}
+
+.span {
+  display: inline-block;
+}
+
+.total-list {
+  margin-top: 40px;
+}
+
+.total__item {
+  margin-bottom: 18px;
+}
+
+.total__title {
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */
